@@ -1,0 +1,14 @@
+In order to make this client, you will need the latest QT development libraries installed. You will also need gcc with the C++ extensions.
+
+Once you have all this, enter the GMUD directory and do:
+
+user@host$ qmake
+user@host$ make
+
+This should be sufficient on GNU/Linux and OS X. For windows, you may have to make sure that WS2_32.lib is included in gmud.pro, doing something like this:
+
+LIBS += -L c:\libs -l WS2_32
+
+You will also have to have ws2_32.dll and another qt dll in your execution path (or in the same directory as GMUD)
+
+

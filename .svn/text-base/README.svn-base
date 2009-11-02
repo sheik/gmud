@@ -1,0 +1,11 @@
+GMUD - The open source MUD client
+
+Currently utilizes QT4
+
+Here is how to compile (you must have QT and other build tools)
+
+qmake
+make
+
+If you are on windows be sure to link to WS2_32
+
